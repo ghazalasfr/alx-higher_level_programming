@@ -1,21 +1,18 @@
 #!/usr/bin/python3
-"""Square Class
-
-A Square Class
-
+"""
+Module: 1
+Private instance attribute: size
+Instantiation with size 
 """
 
 
 class Square:
+    """Represents a square"""
 
     def __init__(self, size):
-        """__init__
+        """Initialize a new square.
 
-        The __init__ method initializes the size value
-        of the square.
-
-        Attributes:
+        Args:
             size (int): The size of the square.
-
         """
         self.__size = size
