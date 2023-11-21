@@ -1,14 +1,11 @@
 #!/usr/bin/python3
-
-"""Square Class
-
-This class don't do anything for the moment
-
 """
+Define a class square
+"""
+
+
 class Square:
     """
-    this do nothing at all
-
+    Represents a square
     """
-
     pass
