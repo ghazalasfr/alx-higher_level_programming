@@ -6,6 +6,9 @@ This class don't do anything for the moment
 
 """
 class Square:
-    """ this do nothing at all 
     """
+    this do nothing at all
+
+    """
+
     pass
