@@ -2,7 +2,8 @@
 """
 Module: 1
 Private instance attribute: size
-Instantiation with size 
+Instantiation with size
+
 """
 
 
