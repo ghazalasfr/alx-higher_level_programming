@@ -7,6 +7,5 @@ Module - 2
 
 def append_write(filename="", text=""):
     """Appends to a file"""
-    with open(filename, "a", encoding="utf-8") as f:
-        f.append(text)
-        return len(text)
+    with open(filename, mode='a', encoding='utf-8') as f:
+        return f.write(text)

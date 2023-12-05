@@ -1,19 +1,12 @@
 #!/usr/bin/python3
+"""
+Module - 0
+- One read function
+"""
 
-"""
-Write a function that reads a text file (UTF8) and prints it to stdout:
-"""
 
 def read_file(filename=""):
-    """
-    Write a function that reads a text file (UTF8) and prints it to stdout:
-    """
-
-    with open(filename, encoding='utf-8') as f:
-
-        """
-        function open to open the file 
-        """
-
-        for line in f:
-            print(line, end='')
+    """Reads file and prints to stdout"""
+    with open(filename, "r", encoding="utf-8") as text:
+        content = text.read()
+        print(content, end='')
