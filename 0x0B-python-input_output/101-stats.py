@@ -1,12 +1,15 @@
 #!/usr/bin/python3
+"""
+-model stat
+_create print info
+"""
+
+
 import sys
-"""
-import modul sys
-"""
 
 
 def print_info():
-    """print info function that print file """
+    """print info function that print data"""
     print('File size: {:d}'.format(file_size))
 
     for scode, code_times in sorted(status_codes.items()):
@@ -35,7 +38,7 @@ try:
 
         pieces = line.split()
 
-         try:
+        try:
             status = int(pieces[-2])
 
             if str(status) in status_codes.keys():
@@ -49,7 +52,6 @@ try:
             pass
 
         lc += 1
-
 
     print_info()
 except KeyboardInterrupt:
