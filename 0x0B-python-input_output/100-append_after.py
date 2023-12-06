@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 """
 
--advanced modul 
+-advanced modul
 -append after
 """
+
 
 def append_after(filename="", search_string="", new_string=""):
     """append after function that open file and add item"""
