@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Module - 10
-- student class with filter 
+- student class with filter
 """
 
 
