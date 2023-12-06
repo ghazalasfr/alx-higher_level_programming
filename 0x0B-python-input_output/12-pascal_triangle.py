@@ -2,8 +2,9 @@
 """
 
 modul 12
--pascal 
+-pascaL
 """
+
 
 def pascal_triangle(n):
     """pascal triangle  function """
