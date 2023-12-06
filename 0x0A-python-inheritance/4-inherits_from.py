@@ -1,7 +1,10 @@
 #!/usr/bin/python3
-def inherits_from(obj, a_class):
-    if isinstance(obj, a_class) and \
-       issubclass(a_class, obj.__class__) is False:
-        return True
+"""
+Module - 4
+Subclasses
+"""
 
-    return False
+
+def inherits_from(obj, a_class):
+    """Returns True for Subclasses or False otherwise"""
+    return isinstance(obj, a_class) and type(obj) is not a_class
