@@ -4,6 +4,7 @@ import sys
 import modul sys
 """
 
+
 def print_info():
     """print info function that print file """
     print('File size: {:d}'.format(file_size))
@@ -39,14 +40,8 @@ try:
 
             if str(status) in status_codes.keys():
                 status_codes[str(status)] += 1
-        except:
-            pass
-
         try:
             file_size += int(pieces[-1])
-        except:
-            pass
-
         lc += 1
 
     print_info()
