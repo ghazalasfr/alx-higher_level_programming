@@ -8,7 +8,7 @@ from models.base import Base
 
 class Rectangle(Base):
     """
-    the main class of rectangle 
+    the main class of rectangle
     """
 
     def __init__(self, width, height, x=0, y=0, id=None):
@@ -106,7 +106,7 @@ class Rectangle(Base):
 
     def area(self):
         """
-        the area function that return with*height 
+        the area function that return with*height
         """
         return self.__width * self.__height
 
