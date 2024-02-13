@@ -24,4 +24,3 @@ if (len > 3) {
 } else {
   console.log(0);
 }
-

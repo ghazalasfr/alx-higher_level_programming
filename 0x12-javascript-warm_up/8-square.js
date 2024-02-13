@@ -17,4 +17,3 @@ if (size) {
 } else {
   console.log('Missing size');
 }
-
