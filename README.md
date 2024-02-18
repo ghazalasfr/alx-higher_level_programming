@@ -1,1 +1,1 @@
-0x06-python-classes projects
+0x08-python-more_classes
