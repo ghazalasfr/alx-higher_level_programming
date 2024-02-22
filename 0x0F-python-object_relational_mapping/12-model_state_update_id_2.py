@@ -11,7 +11,7 @@ from sqlalchemy.orm import sessionmaker
 
 if __name__ == "__main__":
     """
-    Updates a State 
+    Updates a State
     """
 
     db = 'mysql+mysqldb://{}:{}@localhost:3306/{}'.format(

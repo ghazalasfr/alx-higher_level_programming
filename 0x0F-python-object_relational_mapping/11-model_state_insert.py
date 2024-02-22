@@ -26,4 +26,3 @@ if __name__ == "__main__":
     session.commit()
     print('{0}'.format(lou_state.id))
     session.close()
-

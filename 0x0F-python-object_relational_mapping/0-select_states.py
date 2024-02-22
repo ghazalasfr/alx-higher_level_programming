@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-it's for list all tables of the database 
+it's for list all tables of the database
 """
 
 import MySQLdb

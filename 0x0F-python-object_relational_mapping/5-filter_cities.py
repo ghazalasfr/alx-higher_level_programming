@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-list all states filter states from db 
+list all states filter states from db
 """
 
 import MySQLdb
@@ -36,4 +36,3 @@ if __name__ == '__main__':
 
     if rows is not None:
         print(", ".join([i[1] for i in rows]))
-
