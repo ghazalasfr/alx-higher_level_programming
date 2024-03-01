@@ -1,3 +1,3 @@
 #!/bin/bash
-# The name as the second argument of the script, in the body of the request.
-curl -s "$1" -X POST -H "Content-Type: application/json" -d "$(cat "$2")
+# POST method using curl
+curl -sX POST -d @"$2" "$1"
