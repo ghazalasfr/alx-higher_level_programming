@@ -1,18 +1,15 @@
 #!/usr/bin/python3
-"""Fetches the URL: https://intranet.hbtn.io/status
 """
+Fetch from a resource
+"""
+import urllib.request
 
-from urllib.request import Request, urlopen
 
+if __name__ == '__main__':
+    with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as site:
+        html = site.read()
 
-if __name__ == "__main__":
-    req = Request('https://intranet.hbtn.io/status')
-
-    with urlopen(req) as valeur:
-        content = valeur.read()
-        utf8_content = content.decode('utf-8')
-
-        print('Body response:')
-        print('\t- type: {_type}'.format(_type=type(content)))
-        print('\t- content: {_content}'.format(_content=content))
-        print('\t- utf8 content: {_utf8_c}'.format(_utf8_c=utf8_content))
+    print("Body response:")
+    print("\t- type:", type(html))
+    print("\t- content:", html)
+    print("\t- utf8 content:", html.decode('utf-8'))
