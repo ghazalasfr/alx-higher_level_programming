@@ -3,14 +3,12 @@
 with `requests` module
 """
 
-import urllib.request
+import requests
 
 
-if __name__ == '__main__':
-    with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as site:
-        html = site.read()
+if __name__ == "__main__":
+    req = requests.get('https://intranet.hbtn.io/status')
 
     print('Body response:')
-    print("\t- type:", type(html))
-    print("\t- content:", html)
-
+    print('\t- type: {_type}'.format(_type=type(req.text)))
+    print("\t- content:", req)
