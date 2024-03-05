@@ -14,4 +14,3 @@ if __name__ == "__main__":
 
     for com in req[0:10]:
         print(com['sha'] + ':', com['commit']['author']['name'])
-

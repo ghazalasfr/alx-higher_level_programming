@@ -12,4 +12,3 @@ if __name__ == "__main__":
     req = requests.get(url, auth=(argv[1], argv[2])).json()
 
     print(req.get('id'))
-
